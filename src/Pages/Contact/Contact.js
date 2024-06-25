@@ -1,9 +1,12 @@
 import React from 'react'
 import './Contact.css';
+import Navbar from '../../Components/Navbar/Navbar';
 
 const Contact = () => {
   return (
-    <div className='contact_container'>
+  <>
+  <Navbar/>
+  <div className='contact_container'>
       <h1>CONTACT US</h1>
       <div className='contact_info'>
           <form action="">
@@ -25,6 +28,7 @@ const Contact = () => {
           </form>
       </div>
     </div>
+  </>
   )
 }
 

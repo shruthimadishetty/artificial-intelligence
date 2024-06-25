@@ -11,7 +11,7 @@
   font-size: 24px;
   text-align: center;
 }
-button {
+.button_ai {
   padding: 20px 50px;
   border-radius: 60px;
   background-color: black;
@@ -20,7 +20,7 @@ button {
   font-size: 20px;
   font-weight: 600;
 }
-img {
+.image_1 {
   width: 30%;
 }
 .image_2{
@@ -33,7 +33,11 @@ img {
   flex-direction: column;
 }
 @media(max-width:1100px){
-    img{
+  .image_1{
         width: 100%;
+    }
+    .button_ai{
+      padding: 17px 32px;
+      border-radius: 20px;
     }
 }

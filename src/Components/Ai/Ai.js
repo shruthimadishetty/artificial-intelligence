@@ -14,14 +14,14 @@ function Ai() {
     <>
     <div className='ai_container'>
       <h1>ARTIFICIAL INTELLIGENCE</h1>
-      { !img && <img src={img_1} alt="" /> }
+      { !img && <img src={img_1} className="image_1" alt="" /> }
     
     <div className='ai_gif'>
       {img && <img src={img_2} className="image_2" alt="" />}
     </div>
     <div>
-        {!img &&  <button onClick={handleClick}>Face Recognition</button>}
-        {img &&  <button  onClick={handleClick}>DONE</button>}
+        {!img &&  <button className="button_ai" onClick={handleClick}>Face Recognition</button>}
+        {img &&  <button  className="button_ai" onClick={handleClick}>DONE</button>}
     </div>
     </div>
     </>

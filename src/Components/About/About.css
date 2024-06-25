@@ -35,7 +35,8 @@
         width: 100%;
     }
     .about_content p{
-        line-height: 39px;
+        line-height: 29px;
         font-size: 20px;
+        text-align: -webkit-auto;
     }
 }

@@ -9,6 +9,7 @@
   background-position:center ;
   background-size: cover;
   background-attachment: fixed;
+  margin-top: 64px;
 }
 .history_img {
     width: 100%;
@@ -18,7 +19,7 @@
     flex-direction: column;
     gap: 30px;
 }
-img{
+.history_img img{
     width: 20vw;
     border-radius: 50%;
 }
@@ -32,18 +33,19 @@ img{
 }
 .history_info p{
     line-height: 30px;
+    text-align: justify;
 }
 @media(max-width:1050px){
     .history_info p {
-        line-height: 35px;
+        line-height: 30px;
         font-size: 20px;
-        text-align: center;
+        text-align: -webkit-auto;
     }
     .history_info h2{
         font-size: 30px;
         text-align: center;
     }
-    img{
-        width: 30vw;
+    .history_img img{
+        width: 65%;
     }
 }

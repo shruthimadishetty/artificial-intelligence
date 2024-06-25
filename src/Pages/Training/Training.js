@@ -12,6 +12,7 @@ import video from '../../assets/Ai-video.mp4';
 import { useState } from 'react';
 
 import './Training.css';
+import Navbar from '../../Components/Navbar/Navbar';
 
 
 const Training = () => {
@@ -23,7 +24,9 @@ const Training = () => {
     
   }
   return (
-    <div className='training_info'>
+  <>
+  <Navbar/>
+  <div className='training_info'>
       <h1>TRAINING</h1>
       <div className='training_container'>
           <div className='training_cards'>
@@ -83,6 +86,8 @@ const Training = () => {
           }
       </div>
     </div>
+  </>
+    
   )
 }
 export default Training
