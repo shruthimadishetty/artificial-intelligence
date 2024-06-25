@@ -1,0 +1,63 @@
+.training_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background-image: url("../../assets/background_gif_training.gif");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 60px;
+}
+.training_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.training_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.training_cards img {
+  width: 100%;
+  transform: scale(1);
+  transition: 0.5s;
+  border: 2px solid white;
+  height: 30vh;
+}
+.video_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.training_info h2{
+    text-align: center;
+}
+.video_ai {
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 70%;
+}
+@media(max-width:1100px){
+    .video_ai {
+        width: 100%;
+      }  
+}
+.button_play{
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 1.5rem;
+    padding: 13px 45px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
